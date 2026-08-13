@@ -1,7 +1,7 @@
 services:
   web:
     image: custom-nginx:1.0.0
-    container_name: kochnev-mikhail-sergeevich-custom-nginx-t2   # <-- вот это меняем
+    container_name: kochnev-mikhail-sergeevich-custom-nginx-t2   
     ports:
       - "127.0.0.1:8081:80"
     restart: unless-stopped
